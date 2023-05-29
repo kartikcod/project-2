@@ -1,0 +1,106 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(study.png);
+    display: inherit;
+ 
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.apply_now {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 5px 3px 5px rgba(1, 1, 1, 0.1);
+    border-radius: 10px;
+}
+
+.tittl_small {
+    font-size: 20px;
+}
+
+.form_control {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.form_control {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 15px;
+    margin-top: 5px;
+
+}
+
+input,
+select,
+textarea {
+    padding: 6px 10px;
+    border: 1px solid rgb(218, 193, 193);
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+input:focus {
+    outline-color: red;
+}
+
+.data_container {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+
+}
+
+.data_container2 {
+    display: flex;
+    margin-top: -28px;
+}
+
+.btn-Denger {
+    background-color: red;
+    border: transparent solid 2px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: 0.3s ease-in;
+}
+
+.btn-Denger:hover {
+    background-color: aliceblue;
+    border: 2px solid red;
+    color: black;
+    transition: 0.3s ease-out;
+}
+
+.btn-Sucess{
+    background-color: green;
+    border: transparent solid 2px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: 0.3s ease-in;
+}
+.btn-Sucess:hover{
+    background-color: aliceblue;
+    border:2px solid green ;
+    color: black;
+    transition: 0.3s ease-out;
+}
